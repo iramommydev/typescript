@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply text-blue-500 leading-none hover:text-red-500 transition-colors duration-300;
+}
